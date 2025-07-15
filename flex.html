@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rasponsive flex</title>
+    <style>
+        .container{
+            display: flex;
+            gap: 20px;
+        }
+        .box{
+            background-color: slateblue;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+          .container2{
+            display: flex;
+          }
+        .item{
+            width: 200px;
+            height: 100px;
+            background-color: aquamarine;
+            border: 2px solid tomato;
+        }
+        @media screen and (max-width:576) {
+          .container{
+            flex-direction: column;
+          }
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>Rasponsive flex</h2>
+    <div class="container">
+        <div class="box">
+            <h3>First Box</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, blanditiis! Sint necessitatibus delectus iste quo molestias. Asperiores quas quaerat modi, repellat vel inventore labore voluptatum perferendis corrupti tenetur velit soluta?</p>
+        </div>
+        <div class="box">
+        <h3>second box</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel ab nisi earum, voluptates inventore quam ducimus. Commodi laboriosam nesciunt dolorem magnam distinctio sequi, sint repellat, excepturi perferendis maiores ea culpa!</p>
+        </div>
+    </div>
+    <div class="container2"></div>
+    <div class="item">Item-1</div>
+    <div class="item">Item-2</div>
+    <div class="item">Item-3</div>
+    <div class="item">Item-4</div>
+    <div class="item">Item-5</div>
+    <div class="item">Item-6</div>
+    <div class="item">Item-7</div>
+    <div class="item">Item-8</div>
+    <div class="item">Item-9</div>
+    <div class="item">Item-10</div>
+</body>
+</html>
