@@ -1,0 +1,13 @@
+ img{
+    width: 100px;
+    height: 100px;
+ }
+ .row{
+    height: 400px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+ }
+ .vertical-collage img{
+    height: 50%;
+ }
